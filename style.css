@@ -10,7 +10,6 @@ body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
-    text-align: center;
     font-weight: 400;
 }
 
@@ -23,6 +22,8 @@ body{
     background-image: url(background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    padding-top: 240px;
+    text-align: center;
 }
 
 .container {
@@ -38,6 +39,7 @@ body{
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario{
@@ -51,6 +53,39 @@ body{
 }
 
 .container__titulo{
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 700;
 }
+
+.container__imagem{
+    margin: 1em 0 2en 0;
+    padding: 30px;
+}
+
+.container__caixa{
+    margin: 0 11em;
+}
+
+.secundario__imagem{
+    width: 80%;
+    padding-left: 150px;
+}
+
+.descricao__titulo{
+    font-size: 60px;
+    margin: 350px 200px 0 0;
+}
+
+.descricao__paragrafo{
+    color: var(--cinza-secundário);
+    padding-top: 10px;
+}
+
+.botao3{
+    border-radius: 12px;
+}
+
+.container__descricaobot{
+    text-align: center;
+}
+
