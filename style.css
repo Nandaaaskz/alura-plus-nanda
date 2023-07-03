@@ -81,11 +81,13 @@ body{
     padding-top: 10px;
 }
 
-.botao3{
-    border-radius: 12px;
+.secundario__botao{
+    display: inline-block;
 }
 
-.container__descricaobot{
-    text-align: center;
-}
+
+
+
+
+
 
