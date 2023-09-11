@@ -85,9 +85,55 @@ body{
     display: inline-block;
 }
 
+.container__descricao{
+    padding-left: 50px;
+}
+
+.descricao__texto2{
+    padding-bottom: 40px;
+}
+
+.container__descricao2{
+    padding-left: 50px;
+    font-size: 20px;
+    padding-top: 140px;
+}
+
+.secundario__imagem2{
+    width: 80%;
+}
+
+.container3{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 300px;
+}
+
+.container4{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 300px;
+}
+
+.imagem4{
+    width: 700px;
+    padding-left: 100px;
+}
+
+.titulonotebook{
+    font-size: 70px
+}
+
+.descricao__notebook{
+    padding-top: 10px;
+    font-size: 20px
+}
 
 
-
-
-
+.div5{
+    grid-template-columns: 33% 33% 33%;
+    display: grid;
+}
 
