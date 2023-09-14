@@ -32,6 +32,11 @@ body{
     grid-template-columns: 50% 50%;
 }
 
+.container__botao:hover{
+    background-color: #ffffffc1;
+    color: #00030C;
+}
+
 .container__botao{
     background-color: var(--botão-azul);
     border-radius: 12px;
@@ -114,7 +119,6 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
-    padding-top: 300px;
 }
 
 .imagem4{
@@ -131,9 +135,32 @@ body{
     font-size: 20px
 }
 
+.container5{
+    text-align: center;
+    margin-top: -200px;
+    margin-bottom: 200px;
+}
 
 .div5{
     grid-template-columns: 33% 33% 33%;
     display: grid;
+    font-weight: bolder;
+    font-size: 40px;
+    
 }
+
+.titulo5{
+    padding-bottom: 60px;
+    font-size: 60px;
+}
+
+.div5 > img{
+    width: 600px;
+}
+
+.imagemtelas{
+    width: 500px;
+}
+
+
 
